@@ -6,18 +6,34 @@ Remove the child variables and select dataframe age above 15 for female and 18 f
 Convert non numeric variables to numeric variables.
 Data- Preprocessing.
 Correlation the biomarkers with other variables.
-Now drop uncorrelated features.
+Drop uncorrelated features.
 Apply the Imputer to remove null values.
 Then combined data divided into dataframes.
 # Female_severe_anemia 
-This dataframe predicts the severe anemia in women age between 15-49
+This dataframe predicts the severe anemia in pregnant women age between 15-49.
 And hemoglolbin level less than or eqaul to 7.
 
 # Female_Moderate_anemia 
 Hemoglolbin level between 7.1-9.9
-Apply the Models to predict the Anemia
-Calculate the train set and test accuracy 
-Compare the models by using graph
-Find the best Model 
+
+# Female_Mild_anemia
+Hemoglolbin level between 10-10.9
+
+In above three dataframes i applied Random Forest classifier, Logistic Regression, KNN classifier and SVM classifier. And i find the test and train accuracy and compare the models by using graph.
+
+# Male_Female
+The age group is above 17.
+And the HB_level for men is less than 13 and for women HB_level is less than 12.
+I applied three models on it Random Forest classifier, Logistic Regression, KNN classifier.
+Calculate the accuracy for these models.
+
+# Female_anemia
+This dataframe predicts the severe anemia in all other women age between 15-49.
+And hemoglolbin level less than or eqaul to 7.
+I applied three models on it Random Forest classifier and Logistic Regression.
+Calculate the accuracy for these models.
+
+
+
 
 
