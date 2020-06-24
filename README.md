@@ -28,8 +28,8 @@ I applied three models on it Random Forest classifier, Logistic Regression, KNN 
 Calculate the accuracy for these models.
 
 # Female_anemia
-This dataframe predicts the severe anemia in all other women age between 15-49.
-And hemoglolbin level less than or eqaul to 7.
+This dataframe predicts the anemia in all other women age between 15-49.
+And hemoglolbin level less than 12.
 I applied three models on it Random Forest classifier and Logistic Regression.
 Calculate the accuracy for these models.
 
